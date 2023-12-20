@@ -1,3 +1,13 @@
+interface IMeta {
+    current_page: number,
+    last_page: number
+    next_page: null
+    per_page: number
+    previous_page: number
+    total: number
+    total_per_page: number
+}
+
 interface IStore {
     id: number,
     subaccount: string,
@@ -18,7 +28,7 @@ interface IProductProperties {
     discount_rate: number,
     stock_quantity: number,
     minimum_stock_quantity: number,
-    expiry_date: string,
+    expiry_date: string | null,
     store_id: 4,
     store_name: string
 }
@@ -51,6 +61,12 @@ export interface IProduct {
     stock_status: string,
     unit: string | null,
     stores: IStore[],
-    store_product_properties: IProductProperties[],
+    store_product_properties: IProductProperties[] | [],
     is_service: false
+}
+
+export interface IPrdoucts {
+	data: IProduct[]
+    detail: null,
+	meta: IMeta;
 }
