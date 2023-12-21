@@ -34,7 +34,7 @@ const Home = () => {
     return (
         <div>
             <div className="container w-11/12 mx-auto flex items-center justify-between py-6 mt-6 md:mt-8">
-                <h1 className="text-xl md:text-4xl font-bold">Enlumi Store Front</h1>
+                <h1 className="text-2xl md:text-4xl font-bold">Enlumi Store Front</h1>
                 <Link href={"/cart"} className="flex items-center md:mr-[250px] cursor-pointer hover:underline">
                     <p className="mr-1 text-sm md:text-lg">Cart</p>
                     &rarr;
