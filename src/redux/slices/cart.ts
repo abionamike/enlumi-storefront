@@ -1,4 +1,4 @@
-import { IProduct } from '@/interface';
+import { IProduct } from '@/interface/product';
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
 export interface IinitialStateInterface {

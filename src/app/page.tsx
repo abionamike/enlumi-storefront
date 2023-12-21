@@ -1,7 +1,7 @@
 "use client";
 import { useQuery } from "@tanstack/react-query";
 import { publicAxios } from "../utils/axiosConfig";
-import { IPrdoucts, IProduct } from "@/interface";
+import { IPrdoucts, IProduct } from "@/interface/product";
 import { ToastMessage } from "@/utils/toast";
 import Link from "next/link";
 import { useAppDispatch, useAppSelector } from "@/hook/useRedux";
