@@ -12,7 +12,7 @@ const ProductCardSkeleton = () => {
                 </div>
                 <Skeleton height={16} width={60} className="md:mb-1" />
                 <Skeleton height={16} width={150} />
-                <div className="flex justify-end mt-3">
+                <div className="flex justify-end mt-2">
                     <Skeleton height={40} width={100} />
                 </div>
             </div>
